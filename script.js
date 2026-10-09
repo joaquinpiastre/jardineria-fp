@@ -34,7 +34,7 @@
     if (year) year.textContent = new Date().getFullYear();
 
     // Aparición suave de bloques al hacer scroll
-    var targets = document.querySelectorAll('.service, .about__list li, .section__head, .cta__text, .cta__data');
+    var targets = document.querySelectorAll('.service, .about__list li, .equip__list li, .section__head, .cta__text, .cta__data');
     if ('IntersectionObserver' in window && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
         var io = new IntersectionObserver(function (entries) {
             entries.forEach(function (entry) {
