@@ -1,0 +1,8 @@
+# Versión anterior del sitio (reemplazada por los archivos de la raíz)
+OUT/
+# Imágenes originales con nombres no aptos para web (se usan las de img/)
+image/
+.vercel/
+node_modules/
+.DS_Store
+Thumbs.db
